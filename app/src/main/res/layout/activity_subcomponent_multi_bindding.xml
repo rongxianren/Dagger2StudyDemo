@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".acitivities_subcomponent_multibindings.MultiBinddingActivity">
+    tools:context=".activities_subcomponent_multibindings.MultiBinddingActivity">
 
 </android.support.constraint.ConstraintLayout>

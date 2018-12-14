@@ -5,14 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.rongxianren.dagger.acitivities_subcomponent_multibindings.MultiBinddingActivity;
-import com.rongxianren.dagger.acitivities_subcomponent_multibindings.app.MyApplication;
+import com.rongxianren.dagger.activities_subcomponent_multibindings.MultiBinddingActivity;
+import com.rongxianren.dagger.activities_subcomponent_multibindings.app.MyApplication;
 import com.rongxianren.dagger.component_builder.ComponentBuilderActivity;
-import com.rongxianren.dagger.daggerandroid.DaggerAndroidActivity;
+import com.rongxianren.dagger.dagger_android.DaggerAndroidActivity;
 import com.rongxianren.dagger.mapmultibindings.MapBindingsActivity;
 import com.rongxianren.dagger.primary.DaggerPrimaryUseActivity;
 import com.rongxianren.dagger.subcomponent_and_scope.abstract_factory.SubComponentActivity1;
-import com.rongxianren.dagger.subcomponent_and_scope.depenences.DependenceActivity;
+import com.rongxianren.dagger.subcomponent_and_scope.dependence.DependenceActivity;
 import com.rongxianren.dagger.subcomponent_and_scope.subcomponent_builder.SubComponentBuilderActivity;
 
 import javax.inject.Inject;

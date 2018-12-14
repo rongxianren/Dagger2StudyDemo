@@ -5,7 +5,7 @@
     <!-- android:name=".acitivities_subcomponent_multibindings.app.MyApplication" -->
     <!-- android:name=".daggerandroid.app.DaggerAndroidApplication" -->
     <application
-        android:name=".daggerandroid.app.DaggerAndroidApplication"
+        android:name=".dagger_android.app.DaggerAndroidApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".mapmultibindings.MapBindingsActivity" />
-        <activity android:name=".acitivities_subcomponent_multibindings.MultiBinddingActivity" />
-        <activity android:name=".daggerandroid.DaggerAndroidActivity" />
+        <activity android:name=".activities_subcomponent_multibindings.MultiBinddingActivity" />
+        <activity android:name=".dagger_android.DaggerAndroidActivity" />
         <activity android:name=".primary.DaggerPrimaryUseActivity" />
         <activity android:name=".component_builder.ComponentBuilderActivity" />
         <activity android:name=".subcomponent_and_scope.subcomponent_builder.SubComponentBuilderActivity" />
         <activity android:name=".subcomponent_and_scope.abstract_factory.SubComponentActivity1" />
-        <activity android:name=".subcomponent_and_scope.depenences.DependenceActivity"></activity>
+        <activity android:name=".subcomponent_and_scope.dependence.DependenceActivity"></activity>
     </application>
 
 </manifest>

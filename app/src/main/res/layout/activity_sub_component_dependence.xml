@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rongxianren.dagger.subcomponent_and_scope.depenences.DependenceActivity">
+    tools:context="com.rongxianren.dagger.subcomponent_and_scope.dependence.DependenceActivity">
 
 </android.support.constraint.ConstraintLayout>
