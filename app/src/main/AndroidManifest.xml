@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rongxianren.dagger">
+
+    <!-- android:name=".acitivities_subcomponent_multibindings.app.MyApplication" -->
+    <!-- android:name=".daggerandroid.app.DaggerAndroidApplication" -->
+    <application
+        android:name=".daggerandroid.app.DaggerAndroidApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mapmultibindings.MapBindingsActivity" />
+        <activity android:name=".acitivities_subcomponent_multibindings.MultiBinddingActivity" />
+        <activity android:name=".daggerandroid.DaggerAndroidActivity" />
+        <activity android:name=".primary.DaggerPrimaryUseActivity" />
+        <activity android:name=".component_builder.ComponentBuilderActivity" />
+        <activity android:name=".subcomponent_and_scope.subcomponent_builder.SubComponentBuilderActivity" />
+        <activity android:name=".subcomponent_and_scope.abstract_factory.SubComponentActivity1" />
+        <activity android:name=".subcomponent_and_scope.depenences.DependenceActivity"></activity>
+    </application>
+
+</manifest>
